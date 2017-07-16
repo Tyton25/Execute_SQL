@@ -29,3 +29,5 @@ elif [ $# –eq 3 ] ; then
 		sqlplus –s <database_name>/password@${DBN} @$2 $search_str
 	done < $3
 fi
+
+Updated 7/15/2017
